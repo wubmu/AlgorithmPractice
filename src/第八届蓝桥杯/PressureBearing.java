@@ -63,6 +63,7 @@ public class PressureBearing {
     /**
      * 1.a[i][j] += a[i-1][j]/2.0+a[i-1][j-1]/2.0
      * 2.j=0，a[i][j] += a[i-1][j]/2.0
+     * 3.j=i,a[i][j] +=a[i-1][j-1]/2.0
      *
      */
     public static void main(String[] args){
